@@ -1,0 +1,92 @@
+/* BODY AND WIREFRAME STYLEING */
+
+body {
+    background-image: url(../images/background.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV BAR STYLEING PHONE */
+
+#nav_bar_phone {
+    background-color: #ffffff;
+    border-bottom: 1px solid lightgrey;
+}
+
+#my_name_phone {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 6px;
+}
+
+#my_name_h1_phone {
+    font-family: Georgia, Times , serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#flex-container_nav_phone {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.page_links_phone {
+    color: #777777;
+    font-size: 12px;
+}
+
+/* NAV BAR STYLEING */
+
+#my_name_other {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 210px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#my_name_h1_other {
+    font-family: Georgia, Times , serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#nav_bar_link_other {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: none;
+}
+
+.page_links_other {
+    color: #777777;
+    text-decoration: none;
+}
+
+/* NEED HELP WITH THIS!!!!!!! */
+
+#test1 {
+    background-color: #ffffff;
+    border-bottom: 1px solid lightgrey;
+}
+
+#test2 {
+    background-color: #ffffff;
+    border-bottom: 1px solid lightgrey;
+}
+
+/* MAIN */
+
+#main_content_container {
+background-color: #ffffff;
+margin-top: 25px;
+margin-bottom: 25px;
+border: 1px solid lightgray;
+}
