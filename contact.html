@@ -2,72 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>About</title>
+    <title>Contact</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="assets\css\reset.css" />
     <link rel="stylesheet" type="text/css" href="assets\css\style.css" />
 </head>
 <body>
     
-    <nav id="nav_bar">
-        <div id ="header_content">
-            
-            <div id="name_plate">  
-                <h1>David Toler</h1>
-            </div>
+<!-- fluid container for nav-->
+<div class="container-fluid">
+
+        <!-- phone screen size nav -->            
+        <div class="row visible-xs">
+    
+                <div id="nav_bar_phone">
         
-            <div id=link_bar>
-                <a class="page_links" href="index.html">About   |</a>
-                <a class="page_links" href="portfolio.html">   Portfolio   </a>
-                <a class="page_links" href="contact.html">|   Contact</a>
-            </div>
-
-        </div>
-    </nav>
-
-    <div id="main">
-        <section id="main_section">
-
-            <div id="about_me_tag">
-                <h1>Contact</h1>
-            </div>
-
-            <div id="main_content2">
-
-                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                    Name<br>
-                    <input class="form_input" type="text" name="name"><br>
-                    E-mail<br>
-                    <input class="form_input" type="text" name="mail"><br>
-                    Message<br>
-                    <input class="form_input" id="message_box" type="text" name="comment"><br>
-                    <br>
-                    <input type="submit" value="Send">
-                </form>
-
-            </div>
-
-        </section>
-
-        <aside id="sidebar">
-            <div id="connect_with_me_tag">
-                <h1>Connect with Me</h1>
-            </div>
+                    <div id="my_name_phone">  
+                        <h1 id="my_name_h1_phone">David Toler</h1>
+                    </div>
+                    
+                    <div id="flex-container_nav_phone">
+                        <a class="page_links_phone" href="index.html">About</a>
+                        <a class="page_links_phone" href="portfolio.html">Portfolio</a>
+                        <a class="page_links_phone" href="contact.html">Contact</a>
+                    </div>     
+                </div>
+            </div> <!-- row -->
+    
+            <!-- other screen sizes nav -->
+        <div class="row hidden-xs"> 
+    
+                <div id = "nav_background_other_1" class="col-sm-6"> 
+                                               
+                    <div id="my_name_other">  
+                        <h1 id="my_name_h1_other">David Toler</h1>
+                    </div>
         
-            <img src="assets\images\github-icon.jpg" alt="github icon" height="50px" width="50px" href="">
-            <img src="assets\images\linkedin-icon.png" alt="linkedin icon" height="50px" width="50px" href="">
-            <img src="assets\images\stackoverflow-icon.jpg" alt="stackoverflow icon" height="50px" width="50px" href="">
-        </aside>
-            
-    </div>
+                </div> <!-- col-sm-6 -->
+        
+                <div id = "nav_background_other_2" class="col-sm-6"> 
+        
+                    <div id="nav_bar_link_other">
+                        <a class="page_links_other" href="index.html">About   |</a>
+                        <a class="page_links_other" href="portfolio.html">   Portfolio   </a>
+                        <a class="page_links_other" href="contact.html">|   Contact</a>
+                    </div>       
+                </div> <!-- col-sm-6 -->    
+            </div> <!-- row -->        
+    </div> <!-- fluid container -->    
 
-    <footer id="main_footer">
-        <p id="copy_right">Copyright 2018 David Toler</p>
-    </footer>
+<!-- Bootstrap site container -->
+<div class="container"> 
+    
+        <!-- Main site content  -->
+        <div class="row">
+    
+            <div class="col-md-8">
+    
+                <div id="main_content_container">
+                    
+                    <div id="about_me_tag">
+                        <h1 id="about_me_text">Contact</h1>
+                    </div>
+    
+                        <div id="main_content2">
 
+                            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                                Name<br>
+                                <input class="form_input" type="text" name="name"><br>
+                                E-mail<br>
+                                <input class="form_input" type="text" name="mail"><br>
+                                Message<br>
+                                <input class="form_input" id="message_box" type="text" name="comment"><br>
+                                <br>
+                                <input type="submit" value="Send">
+                            </form>
+                        </div>       
+                </div>
+            </div>
+    
+            <div class="col-md-4" id="footer_margin">
+    
+                <aside id="sidebar">
+    
+                        <h1 id="connect_with_me_tag">Connect with Me</h1>
+    
+                    <img src="assets\images\github-icon.jpg" alt="github icon" height="50px" width="50px" href="">
+                    <img src="assets\images\linkedin-icon.png" alt="linkedin icon" height="50px" width="50px" href="">
+                    <img src="assets\images\stackoverflow-icon.jpg" alt="stackoverflow icon" height="50px" width="50px" href="">
+                </aside>
+            </div>    
+        </div><!-- section row -->
+    </div><!-- container -->
+    
+<footer id="main_footer">
+    <p id="copy_right">Copyright 2018 David Toler</p>
+</footer>
+    
 </body>
 </html>

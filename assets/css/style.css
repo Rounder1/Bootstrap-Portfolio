@@ -49,6 +49,7 @@ body {
     width: 210px;
     padding-top: 5px;
     padding-bottom: 10px;
+    margin-left: 25%;
 }
 
 #my_name_h1_other {
@@ -70,23 +71,142 @@ body {
     text-decoration: none;
 }
 
-/* NEED HELP WITH THIS!!!!!!! */
-
-#test1 {
+#nav_background_other_1 {
     background-color: #ffffff;
     border-bottom: 1px solid lightgrey;
 }
 
-#test2 {
+#nav_background_other_2 { 
     background-color: #ffffff;
     border-bottom: 1px solid lightgrey;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+    border: 2px solid lightgray;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 25px;
+    height: 150px;
+    text-align: center;
+}
+
+#connect_with_me_tag {
+    font-family: Georgia, Times , serif;
+    color: #4aaaa5;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 18px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: lightgray;
+    margin-bottom: 18px;
+}
+
+#footer_margin {
+    margin-bottom: 75px;
+}
+
+/* FOOTER */
+
+#main_footer {
+        background-color: #666666;
+        border-top: 5px solid #4aaaa5;
+        bottom: -2px;
+        width: 100%;
+        position: fixed;
+        height: 50px;
+        margin: auto;
+}
+
+#copy_right {
+    text-align: center;
+    color: lightgrey;
+    font-size: 12px;
+    margin-top: 15px;
 }
 
 /* MAIN */
 
 #main_content_container {
-background-color: #ffffff;
-margin-top: 25px;
-margin-bottom: 25px;
-border: 1px solid lightgray;
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid lightgray;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#about_me_tag {
+    font-family: Georgia, Times , serif;
+    color: #4aaaa5;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: lightgray;
+    margin-bottom: 25px;
+}
+
+#about_me_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#self_pic {
+   float: left;
+   margin-right: 25px;
+}
+
+.main_text {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+}
+
+/* CONTACT STYLEING */
+
+#main_content2 {
+    line-height: 1.5;
+}
+
+.form_input {
+    width: 100%;
+}
+
+#message_box {
+    height: 200px;
+}
+
+/* PORTFOLIO */
+
+#main_content3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pic_container {
+    position: relative;
+    text-align: center;
+    margin: 15px;
+}
+
+.text_overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, Times , serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 50px;
+}
+
+.text_overlay_label {
+    margin: 7%;
 }
